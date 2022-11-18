@@ -3,7 +3,7 @@ window.onload = function() {
 
   // the following lines will be replaced by docker/configurator, when it runs in a docker-container
   window.ui = SwaggerUIBundle({
-    url: "https://iata-cargo.github.io/swaggertest/onerecord.json",
+    url: "https://github.com/IATA-Cargo/one-record-api-swagger/onerecord.json",
     dom_id: '#swagger-ui',
     deepLinking: true,
     presets: [
